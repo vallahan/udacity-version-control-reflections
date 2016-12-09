@@ -5,3 +5,11 @@ It then allows the user to add files to the repository.
 
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where files are collected for preparation of being moved into the commit.
+It offers the benefits of giving the user a place to organize files and establish their files for each commit.
+Each commit is different, but some are likely to include (or not include) files different to another commit.
+
+
+

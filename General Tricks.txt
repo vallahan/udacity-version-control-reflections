@@ -6,3 +6,27 @@ i.e. fc file_old.js file_new.js
 
 In Windows/Linuxs: diff file_old.js file_new.js
 
+
+
+Github:
+
+Versions are called commits.
+
+Collections are called repositories.
+
+Git checkout - reset files to how they were at time commit was made.
+	Good for bug checking.
+
+Head - the commit you're working on.
+
+git log - Shows the log
+git diff - Compares files
+git checkout - Changes the HEAD
+
+git init - Creates a new repository
+git add [file] - Adds a file to the commit
+git status - Shows commit status
+
+git commit - Commits, opens editor
+git commit -m [Message] - Commits with Message
+
