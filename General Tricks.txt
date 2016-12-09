@@ -1,0 +1,8 @@
+In Windows:
+
+In cmd, use the fc (file comparer) to check for differences between file versions.
+
+i.e. fc file_old.js file_new.js
+
+In Windows/Linuxs: diff file_old.js file_new.js
+

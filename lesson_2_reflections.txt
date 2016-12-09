@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize the respository, a .git folder is created. It doesn't do anything until you choose to make a commit.
+It then allows the user to add files to the repository.
+
+
+
