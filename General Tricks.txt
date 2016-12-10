@@ -1,3 +1,11 @@
+Diagram Making:
+
+http://yuml.me/diagram/activity/draw
+
+https://www.gliffy.com/
+
+
+
 In Windows:
 
 In cmd, use the fc (file comparer) to check for differences between file versions.
@@ -20,8 +28,11 @@ Git checkout - reset files to how they were at time commit was made.
 Head - the commit you're working on.
 
 git log - Shows the log
-git diff - Compares files
+git log -n x - Shows the last x logs.
+git diff [A] [B]- Compares files
+git diff --staged - Compares working directory vs staged area.
 git checkout - Changes the HEAD
+git checkout master - Changes HEAD to the master commit.
 
 git init - Creates a new repository
 git add [file] - Adds a file to the commit
@@ -29,4 +40,17 @@ git status - Shows commit status
 
 git commit - Commits, opens editor
 git commit -m [Message] - Commits with Message
+git show CommitID - Shows parent of CommitID.
+
+master - Main branch.
+git branch - Show branches.
+git branch [N] - Create N branch.
+git checkout [N] - Switch to N branch.
+git checkout -b [N] - Create and switch to N branch.
+
+git log --graph --oneline A B - Compares the commits of branches A and B.
+
+git remote - Show all remotes.
+
+
 

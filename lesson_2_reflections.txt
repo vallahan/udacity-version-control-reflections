@@ -13,3 +13,57 @@ Each commit is different, but some are likely to include (or not include) files 
 
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area shows all the changes that are going to occur. The user can use this to gauge whether the changes between
+each commit are logical, or whether they are too much.
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be very useful if the current commit needed to be changed in parallel, i.e. difficulty settings, or languages.
+Branches would also help if different programs, software architecture styles, etc were being used to extend a commit.
+It would also be helpful if experimental code needed to be used, though version control would usually suffice for this purpose.
+Branches help because they allow the code to be developed in parallel, rather than relying on the commits to be finalized each time.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+By having the diagrams, it makes it possible for me to see what exactly is changing and how the files are linked together.
+Sometimes it's hard to fully understand how parallel lanes are working in code, and that for example, the coins and easymode don't
+necessarily link up automatically, because they both come off master, rather than one off the other.
+
+
+
+Note:
+Something that doesn't make sense.
+Original file has A B D.
+Jake has B D E.
+Rachel has A B C D.
+By merging, you discard A, and so the merged file has B C D E.
+But what if Rachel's work on C requires A to work? Wouldn't you then be importing an unsupported C method that didn't work?
+This was never brought up. You'd essentially have a method there that either didn't work, or that was useless.
+And does it do error checking on B and D to even make sure they're identical to each other AND the original? That seems tedious.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The explanation was lackluster and left me with questions that went unanswered.
+It's represented in the diagram to show that a branch ends, though the diagram suggests that master merges into coins, and not the other
+way around.
+This section needs revising.
+The result of merging the branches together is that all the new additions between the 'original' commit and the two branches are added
+together and form a singular commit.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can take massive amounts of file data and create a single commit out of it easily.
+The problem is, by doing this, it may get something confused. Files may not carry over properly. It can be prone to errors.
+
+
+
